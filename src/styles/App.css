@@ -1,0 +1,15 @@
+.compo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+a{
+    color: lightgreen;
+}
+a:hover {
+    color: red;
+  }
+  ul{
+    list-style: none;
+  }

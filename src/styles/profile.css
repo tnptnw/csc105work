@@ -1,0 +1,13 @@
+.prof{
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.prof:hover{
+    border: 1px solid #ff0000;
+}
+.prof:hover h2{
+    color: red;
+}
