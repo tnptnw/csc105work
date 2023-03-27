@@ -38,22 +38,22 @@ export const Content = () => {
     <Grid item md={6} xs={12} >
         <Card >
             <CardMedia sx={{height : "140px"}} image="https://files.cults3d.com/uploaders/17095298/illustration-file/ed35eb8e-5e86-4ecf-af0c-e8cbbcfacdda/jerrymeme_meme.jpg"></CardMedia>            
-            <Typography variant='h5'> Card Title</Typography>
-            <Typography variant='body2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet libero ac magna elementum rutrum. Morbi tellus ligula, porttitor in pulvinar ac, bibendum sed ligula. Pellentesque blandit metus vel</Typography>
+            <Typography gutterBottom variant='h5' component='div'> Card Title</Typography>
+            <Typography variant='body2' color="text.secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet libero ac magna elementum rutrum. Morbi tellus ligula, porttitor in pulvinar ac, bibendum sed ligula. Pellentesque blandit metus vel</Typography>
         </Card>
         </Grid>
     <Grid item md={6}  sm={6} xs={12} >
     <Card >
             <CardMedia sx={{height : "140px"}} image="https://files.cults3d.com/uploaders/17095298/illustration-file/ed35eb8e-5e86-4ecf-af0c-e8cbbcfacdda/jerrymeme_meme.jpg"></CardMedia>            
-            <Typography variant='h5'> Card Title</Typography>
-            <Typography variant='body2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet libero ac magna elementum rutrum. Morbi tellus ligula, porttitor in pulvinar ac, bibendum sed ligula. Pellentesque blandit metus vel</Typography>
+            <Typography gutterBottom variant='h5' component='div'> Card Title</Typography>
+            <Typography variant='body2' color="text.secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet libero ac magna elementum rutrum. Morbi tellus ligula, porttitor in pulvinar ac, bibendum sed ligula. Pellentesque blandit metus vel</Typography>
         </Card>
     </Grid>
     <Grid item md={6}  sm={6} xs={12} >
             <Card >
             <CardMedia sx={{height : "140px"}} image="https://files.cults3d.com/uploaders/17095298/illustration-file/ed35eb8e-5e86-4ecf-af0c-e8cbbcfacdda/jerrymeme_meme.jpg"></CardMedia>            
-            <Typography variant='h5'> Card Title</Typography>
-            <Typography variant='body2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet libero ac magna elementum rutrum. Morbi tellus ligula, porttitor in pulvinar ac, bibendum sed ligula. Pellentesque blandit metus vel</Typography>
+            <Typography gutterBottom variant='h5' component='div'> Card Title</Typography>
+            <Typography variant='body2' color="text.secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet libero ac magna elementum rutrum. Morbi tellus ligula, porttitor in pulvinar ac, bibendum sed ligula. Pellentesque blandit metus vel</Typography>
         </Card>
         </Grid>
     </Grid>

@@ -7,7 +7,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 export const Nav = () => {
   return (
     <section>
-    <Box sx={{flexGrow:1}}>
+    <Box sx={{flexGrow:1}} mb={4}>
     <AppBar position="static" sx={{backgroundColor: "#20232a"}}>
         <Toolbar>
             <Typography variant="h6" component="div" sx={{flexGrow: 1}}>My Website

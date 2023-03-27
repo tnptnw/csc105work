@@ -6,7 +6,7 @@ import { Content } from './components/Content'
 import { Nav } from './components/Nav'
 import { Sidebar } from './components/Sidebar'
 import Rightbar from './components/Rightbar'
-import { Grid } from '@mui/material'
+import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import "./components/style.css/nav.css"
 import { Container } from '@mui/system'
 
@@ -14,20 +14,20 @@ import { Container } from '@mui/system'
 function App() {
  
   return (
-    <div className="App">   
+    <Container maxWidth="lg">   
          <Nav></Nav>         
-            <Grid container spacing={2}>
-              <Grid item xs={4} md={3}>
+            <Grid2 container spacing={2} width>
+              <Grid2 item md={3}>
                 <Sidebar></Sidebar>
-              </Grid>
-              <Grid item xs={4} md={6}>
+              </Grid2>
+              <Grid2 item md={6}>
                 <Content></Content>
-              </Grid>
-              <Grid item xs={4} md={3}>
+              </Grid2>
+              <Grid2 item md={3}>
                 <Rightbar></Rightbar>
-              </Grid>
-            </Grid>         
-    </div>
+              </Grid2>
+            </Grid2>         
+    </Container>
   )
 }
 
