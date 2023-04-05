@@ -18,12 +18,6 @@ const handleLogin = (event) => {
   setIsLoggedIn(true);
 };
 
-const handleLogout = () => {
-  setIsLoggedIn(false);
-};
-
-
-
   return (
     <BrowserRouter>
     {/* Routes path*/}
@@ -54,7 +48,7 @@ const handleLogout = () => {
         <NavLink to={"/"}>Home</NavLink>
         <NavLink to={"/About"}>About</NavLink>
         <NavLink to={"/Contact"}>Contact</NavLink>
-        <NavLink to={"/Admin"}>Admin</NavLink>
+        <NavLink to={"/Admin"}>For Admin!!</NavLink>
         <NavLink to={"/Profile/239"}>Profile</NavLink>
       </nav>
     </BrowserRouter>

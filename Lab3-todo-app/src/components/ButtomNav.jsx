@@ -5,18 +5,21 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import RestoreIcon from '@mui/icons-material/Restore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import {useNavigate} from "react-router-dom";
 
 export default function ButtomNav() {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState("");
+  const navigate = useNavigate();
+  const handleChange = (event, newValue) => {
+    navigate('/$newValue');
+  };
 
   return (
     <Box sx={{ width: 500 }}>
       <BottomNavigation
         showLabels
         value={value}
-        onChange={(event, newValue) => {
-          setValue(newValue);
-        }}
+        onChange={handleChange}
       >
         <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
         <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
