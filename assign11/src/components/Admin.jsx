@@ -8,7 +8,7 @@ export const Admin = ({ isLoggedIn, setIsLoggedIn }) => {
 
     useEffect(() => {
         if (!isLoggedIn) {
-          navigate('/');
+          navigate('/Error');
         }
       }, [isLoggedIn, navigate]);
 

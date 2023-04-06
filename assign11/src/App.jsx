@@ -8,6 +8,7 @@ import { About } from './components/About'
 import { Contact } from './components/Contact'
 import { Admin } from './components/Admin'
 import { Profile } from './components/Profile'
+import { Error } from './components/Error'
 
 function App() {
 
@@ -33,6 +34,8 @@ const handleLogin = (event) => {
           }
         />
         <Route path={'/Profile/:profileId'} element={<Profile/>}></Route>
+        <Route path={'/Error'} element={<Error/>}></Route>
+
       </Routes>
 
     {/* Login */}
