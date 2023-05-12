@@ -1,0 +1,5 @@
+p {
+    max-height: 3em;    
+    text-overflow: ellipsis;
+    font-size: large;
+  }

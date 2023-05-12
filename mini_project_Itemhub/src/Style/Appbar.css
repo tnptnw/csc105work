@@ -1,0 +1,8 @@
+@font-face {
+    font-family: quasix;
+    src: url(../fonts/quasix\ titling.otf);
+}
+
+p {
+    font-family: quasix;
+}
