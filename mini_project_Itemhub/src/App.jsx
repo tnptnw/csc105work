@@ -6,6 +6,7 @@ import Appbar from './component/Appbar'
 import { FirstContentBox } from './component/FirstContentBox'
 import {LoginPage} from './Pages/LoginPage'
 import { Homepage_Loggedin } from './Pages/Homepage_Loggedin'
+import { SignUpPage } from './Pages/SignUpPage'
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
 
   return (
     <>
-      {/* <Homepage_Loggedin></Homepage_Loggedin> */}
-      <LoginPage></LoginPage>
+      <Homepage_Loggedin></Homepage_Loggedin>
+      {/* <LoginPage></LoginPage> */}
+      {/* <SignUpPage></SignUpPage> */}
     </>
   )
 }
