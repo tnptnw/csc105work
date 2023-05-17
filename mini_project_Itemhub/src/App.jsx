@@ -7,6 +7,7 @@ import { FirstContentBox } from './component/FirstContentBox'
 import {LoginPage} from './Pages/LoginPage'
 import { Homepage_Loggedin } from './Pages/Homepage_Loggedin'
 import { SignUpPage } from './Pages/SignUpPage'
+import { Itemlisting } from './Pages/Itemlisting'
 
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
 
   return (
     <>
-      <Homepage_Loggedin></Homepage_Loggedin>
+      {/* <Homepage_Loggedin></Homepage_Loggedin> */}
       {/* <LoginPage></LoginPage> */}
       {/* <SignUpPage></SignUpPage> */}
+      <Itemlisting></Itemlisting>
     </>
   )
 }
